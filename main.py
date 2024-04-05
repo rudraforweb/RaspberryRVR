@@ -1,7 +1,7 @@
 import sys  # Allows us to use sys.path.append below
 import time # Allows us to insert delays in our script
 
-sys.path.append('/home/rkumar/  sphero-sdk-raspberrypi-python') 
+sys.path.append('/home/rkumar/sphero-sdk-raspberrypi-python') 
 
 from sphero_sdk import SpheroRvrObserver
 from sphero_sdk import Colors
