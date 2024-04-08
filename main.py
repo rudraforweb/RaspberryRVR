@@ -7,7 +7,7 @@ sys.path.append('/home/rkumar/sphero-sdk-raspberrypi-python')
 from sphero_sdk import SpheroRvrObserver
 from sphero_sdk import Colors
 
-import functions
+from functions import left_turn
 
 rvr = SpheroRvrObserver()
 
@@ -45,10 +45,7 @@ def main():
         # Delay to allow RVR to drive
         time.sleep(1)
 
-        rvr.drive_control.turn_left_degrees(
-            heading=0,  # Valid heading values are 0-359
-            amount=90
-        )
+        left_turn()
 
         # Delay to allow RVR to drive
         time.sleep(1)
