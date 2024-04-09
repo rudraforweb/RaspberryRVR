@@ -11,7 +11,7 @@ rvr = SpheroRvrObserver()
 #Functions:
 
 def battery_percentage_handler(battery_percentage):
-            print('Battery percentage: ', battery_percentage)
+            print('Battery:', battery_percentage)
 
 def left_turn():
     rvr.drive_control.turn_left_degrees(

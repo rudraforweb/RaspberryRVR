@@ -59,6 +59,8 @@ def main():
 
     finally:
         rvr.close()
+        time.sleep(1)
+        exit()
 
 
 if __name__ == '__main__':
