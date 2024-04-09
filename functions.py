@@ -8,6 +8,10 @@ sys.path.append('/home/rkumar/sphero-sdk-raspberrypi-python')
 from sphero_sdk import SpheroRvrObserver
 rvr = SpheroRvrObserver()
 
+#Functions:
+
+def battery_percentage_handler(battery_percentage):
+            print('Battery percentage: ', battery_percentage)
 
 def left_turn():
     rvr.drive_control.turn_left_degrees(
