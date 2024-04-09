@@ -26,8 +26,7 @@ def main():
         # Give RVR time to wake up
         time.sleep(2)
         
-        def battery_percentage_handler(battery_percentage):
-            print('Battery percentage: ', battery_percentage)
+        rvr.get_battery_percentage(handler=battery_percentage_handler)
 
 
         rvr.drive_control.reset_heading()
