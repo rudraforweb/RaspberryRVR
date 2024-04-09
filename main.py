@@ -7,7 +7,7 @@ sys.path.append('/home/rkumar/sphero-sdk-raspberrypi-python')
 from sphero_sdk import SpheroRvrObserver
 from sphero_sdk import Colors
 
-from functions import left_turn
+from functions import *
 
 rvr = SpheroRvrObserver()
 
