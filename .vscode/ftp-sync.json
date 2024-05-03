@@ -1,0 +1,27 @@
+{
+    "remotePath": "/home/rkumar/",
+    "host": "10.3.141.1",
+    "username": "rkumar",
+    "password": "Rudra@2012",
+    "port": 22,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
